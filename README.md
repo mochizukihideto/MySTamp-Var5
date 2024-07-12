@@ -10,8 +10,8 @@ My STamp
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
-- ID: uesugi@gmail.com
-- PW: uesugi
+- ID: oozora@gmail.com
+- PW: oozora
 
 ## ⑤工夫した点・こだわった点
 
