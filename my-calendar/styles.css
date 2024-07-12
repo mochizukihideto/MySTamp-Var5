@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    color: white;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calendar-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.calendar-header a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.calendar {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.calendar th, .calendar td {
+    padding: 10px;
+    text-align: center;
+}
+
+.calendar th {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.calendar-day {
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+    position: relative;
+    height: 80px;
+    vertical-align: top;
+}
+
+.empty-day {
+    background-color: transparent;
+}
+
+.day-number {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 14px;
+}
+
+.calendar-stamp {
+    max-width: 50px;
+    max-height: 50px;
+    display: block;
+    margin: 20px auto 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.stamp-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* カレンダーの日付枠の高さに合わせて調整 */
+}
+
+.calendar-stamp {
+    max-width: 25px; /* スタンプのサイズを小さくする */
+    max-height: 25px;
+    margin: 2px;
+}
+
+.calendar-day {
+    height: 100px; /* 日付枠の高さを増やす */
+}
+#stamp-info {
+    font-size: 14px;
+    max-width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color: #333; /* テキストの色を設定 */
+}
